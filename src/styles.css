@@ -865,7 +865,7 @@ section small {
     margin-bottom: 13px;
 }
 .footer-block {
-    height: 30vh;
+    min-height: 30vh;
     width: calc(100% / 3);
     padding: 30px;
     box-sizing: border-box;
