@@ -7,7 +7,7 @@ import {
   Navbar, 
   FirstWhiteSection, 
   SecondWhiteSection, 
-  ThirdWhiteSection 
+  ThirdWhiteSection,
 } from './ui';
 
 export const CreditoPymeApp = () => {
