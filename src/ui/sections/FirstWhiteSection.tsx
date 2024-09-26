@@ -9,7 +9,7 @@ export const FirstWhiteSection = () => {
         <div className="figures-container">
           <div className="card-container">
             <img 
-              src={`${ imgUrl }customer.PNG`} 
+              src={`${ imgUrl }Customer.png`} 
               alt="Amplia experiencia en el sector crediticio" 
               className="container-img"
             />  
@@ -18,7 +18,7 @@ export const FirstWhiteSection = () => {
           </div>  
           <div className="card-container">
             <img 
-              src={`${ imgUrl }folder.PNG`} 
+              src={`${ imgUrl }Folder.png`} 
               alt="Abanico de opciones crediticias" 
               className="container-img"
             />
@@ -27,7 +27,7 @@ export const FirstWhiteSection = () => {
           </div>
           <div className="card-container">
             <img 
-              src={`${ imgUrl }efectivity.PNG`} 
+              src={`${ imgUrl }Efectivity.png`} 
               alt="Rapidez en la gestión" 
               className="container-img"
             />
