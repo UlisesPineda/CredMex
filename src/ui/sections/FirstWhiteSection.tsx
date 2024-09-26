@@ -1,5 +1,5 @@
 
-const imgUrl = '/public/img/';
+const imgUrl = './public/img/';
 
 export const FirstWhiteSection = () => {
   return (
