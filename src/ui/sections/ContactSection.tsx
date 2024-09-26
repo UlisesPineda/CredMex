@@ -10,9 +10,9 @@ export const ContactSection = () => {
         <p>Si necesitas atención personalizada nos puedes contactar en los siguientes medios:</p>
         <div className="contact-info-container">
           <div className="contact-card">
-            <a href="https://w.app/CreditoPyMeMexico" className="wapp-icon contact-icon" title="Envíanos un WP 💬"></a>
+            <a href="https://wa.me/+522224288804" className="wapp-icon contact-icon" title="Envíanos un WP 💬" target="_blank" rel="noopener noreferrer nofollow"></a>
             <big className="colored-subtitle">WhatsApp</big>
-            <a href="https://w.app/CreditoPyMeMexico" title="Envíanos un WP 💬">Enviar Mensaje</a>
+            <a href="https://wa.me/+522224288804" title="Envíanos un WP 💬" target="_blank" rel="noopener noreferrer nofollow">Enviar Mensaje</a>
           </div>
           <div className="contact-card">
             <a href="tel:+522224288804" className="tel-icon contact-icon" title="Llámanos 📱"></a>
