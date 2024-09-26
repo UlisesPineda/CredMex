@@ -1,6 +1,8 @@
 
 const imgUrl = '../src/assets/img/';
 
+import customer from '../src/assets/img/folder.png'
+
 export const FirstWhiteSection = () => {
   return (
     <section className="white-section first-white-section">
@@ -18,7 +20,7 @@ export const FirstWhiteSection = () => {
           </div>  
           <div className="card-container">
             <img 
-              src={`/CredMex/${ imgUrl }folder.png`} 
+              src={`/CredMex/${ customer }`} 
               alt="Abanico de opciones crediticias" 
               className="container-img"
             />
