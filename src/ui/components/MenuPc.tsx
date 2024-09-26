@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { LinkItem } from "..";
-import { returnTop } from "../../helpers";
 import { dataLink } from "../../data";
 
 
@@ -31,7 +30,6 @@ export const MenuPc = () => {
     <div className={ `menu-pc-container ${ isScrolled ? 'menu-pc-container-scrolled' : '' }` }>
         <Link 
             to="/"
-            onClick={ returnTop }
         >
             <div className={ `logo-pc-container ${ isScrolled ? 'logo-pc-container-scrolled' : '' }` }>
                 <img 

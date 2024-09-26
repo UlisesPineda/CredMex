@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { returnTop } from "../../helpers";
 
 export const Footer = () => {
   return (
@@ -15,12 +14,22 @@ export const Footer = () => {
             <span className="footer-links">
               <div className="shield-icon icon"></div>
               &nbsp;
-              <Link to="/politica-de-privacidad" title="Consulta nuestra política de privacidad" onClick={ returnTop }>POLÍTICA DE PRIVACIDAD</Link>
+              <Link 
+                to="/politica-de-privacidad" 
+                title="Consulta nuestra política de privacidad" 
+              >
+                POLÍTICA DE PRIVACIDAD
+              </Link>
             </span>
             <span className="footer-links">
               <div className="cookies-icon icon"></div>
               &nbsp;
-              <Link to="/politica-de-cookies" title="Consulta nuestra política de cookies" onClick={ returnTop }>POLÍTICA DE COOKIES</Link>
+              <Link 
+                to="/politica-de-cookies" 
+                title="Consulta nuestra política de cookies" 
+              >
+                POLÍTICA DE COOKIES
+              </Link>
             </span>
           </div>
           <div className="footer-block">
