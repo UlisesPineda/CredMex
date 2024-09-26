@@ -18,7 +18,7 @@ export const FirstWhiteSection = () => {
           </div>  
           <div className="card-container">
             <img 
-              src={`${ imgUrl }folder.png`} 
+              src={`/CredMex/${ imgUrl }folder.png`} 
               alt="Abanico de opciones crediticias" 
               className="container-img"
             />
