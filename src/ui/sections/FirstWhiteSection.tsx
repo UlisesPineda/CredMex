@@ -1,5 +1,5 @@
 
-const imgUrl = 'public/img/';
+const imgUrl = `${ import.meta.env.BASE_URL }public/img/`;
 
 export const FirstWhiteSection = () => {
   return (
@@ -9,7 +9,7 @@ export const FirstWhiteSection = () => {
         <div className="figures-container">
           <div className="card-container">
             <img 
-              src={`CredMex/${ imgUrl }customer.png`} 
+              src={`${ imgUrl }customer.png`} 
               alt="Amplia experiencia en el sector crediticio" 
               className="container-img"
             />  
@@ -18,7 +18,7 @@ export const FirstWhiteSection = () => {
           </div>  
           <div className="card-container">
             <img 
-              src={`CredMex/${ imgUrl }folder.png`} 
+              src={`${ imgUrl }folder.png`} 
               alt="Abanico de opciones crediticias" 
               className="container-img"
             />
@@ -27,7 +27,7 @@ export const FirstWhiteSection = () => {
           </div>
           <div className="card-container">
             <img 
-              src={`CredMex/${ imgUrl }efectivity.png`} 
+              src={`${ imgUrl }efectivity.png`} 
               alt="Rapidez en la gestión" 
               className="container-img"
             />
