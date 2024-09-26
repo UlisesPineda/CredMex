@@ -188,7 +188,7 @@ body {
     width: 43px;
     z-index: 100;
     position: fixed;
-    background-image: url(../src/assets/img/scrolltop.png);
+    background-image: url(src/public/img/scrolltop.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -609,10 +609,10 @@ section small {
     background-repeat: no-repeat;
 }
 .bank-icon {
-    background-image: url(../src/assets/img/requisitos-credito-bancario.png);
+    background-image: url(src/public/img/requisitos-credito-bancario.png);
 }
 .financial-icon {
-    background-image: url(../src/assets/img/requisitos-credito-financiera.png);
+    background-image: url(src/public/img/requisitos-credito-financiera.png);
 }
 @media (max-width: 800px) {
     .first-dark-section h2 {
@@ -656,7 +656,7 @@ section small {
 /* Estilos de la sección del formulario */
 .info-icon {
     margin-top: 30px;
-    background-image: url(../src/assets/img/inicia-tramite.png);
+    background-image: url(src/public/img/inicia-tramite.png);
 }
 .form-container {
     display: flex;
@@ -782,13 +782,13 @@ section small {
     background-repeat: no-repeat;
 }
 .wapp-icon {
-    background-image: url(../src/assets/img/whatsapp.png);    
+    background-image: url(src/public/img/whatsapp.png);    
 }
 .tel-icon{
-    background-image: url(../src/assets/img/phone.png);    
+    background-image: url(src/public/img/phone.png);    
 }
 .mail-icon {
-    background-image: url(../src/assets/img/envelope.png);    
+    background-image: url(src/public/img/envelope.png);    
 }
 @media (max-width: 800px) {
     .contact-section h2 {
@@ -897,13 +897,13 @@ section small {
     background-repeat: no-repeat;
 }
 .shield-icon {
-    background-image: url(../src/assets/img/shield.png);
+    background-image: url(src/public/img/shield.png);
 }
 .cookies-icon {
-    background-image: url(../src/assets/img/cookies.png);
+    background-image: url(src/public/img/cookies.png);
 }
 .twitter-icon {
-    background-image: url(../src/assets/img/twitter.png);    
+    background-image: url(src/public/img/twitter.png);    
 }
 @media (max-width: 1040px) {
     .footer-container {
