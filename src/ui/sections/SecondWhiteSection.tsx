@@ -1,5 +1,5 @@
 
-const imgUrl = 'public/img/';
+const imgUrl = `${ import.meta.env.BASE_URL }/img/`;
 
 export const SecondWhiteSection = () => {
   return (

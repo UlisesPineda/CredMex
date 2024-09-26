@@ -17,7 +17,7 @@ export const FormSection = () => {
       className="form-section dark-section"
       id="mas-informacion"
     >
-      <img src="public/img/inicia-tramite.jpg" alt="Solicita más información del crédito PyME" />
+      <img src={`${ import.meta.env.BASE_URL }/img/inicia-tramite.jpg`} alt="Solicita más información del crédito PyME" />
       <div className="info-icon"></div>
       <h2 className="colored-subtitle">Despeja todas tus dudas</h2>
       <p>Si necesitas información adicional por favor envíanos tus datos de contacto y nos comunicaremos contigo para aclarar tus dudas o comenzar con tu trámite.</p>

@@ -28,7 +28,7 @@ export const HeroeSlide = () => {
             >
               <img
                 className="img-slide" 
-                src={`/CredMex/${ image.slideUrl }`} 
+                src={`${ image.slideUrl }`} 
                 alt={ image.slideAlt } 
               />
               <h3 
