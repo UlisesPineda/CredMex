@@ -5,7 +5,7 @@ export const FirstDarkSection = () => {
       className="dark-section first-dark-section"
       id="credito-pyme-bancario"
     >
-        <img src="src/public/img/credito-pyme-bancario.jpg" alt="Requisitos y características del crédito PyME bancario" />
+        <img src="public/img/credito-pyme-bancario.jpg" alt="Requisitos y características del crédito PyME bancario" />
         <h2 className="colored-subtitle">ELIGE EL FINANCIAMIENTO QUE NECESITAS</h2>
         <div className="bank-icon"></div>
         <h3 className="colored-subtitle">CRÉDITO PYME BANCARIO</h3>

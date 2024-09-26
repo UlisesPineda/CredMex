@@ -35,7 +35,7 @@ export const MenuPc = () => {
         >
             <div className={ `logo-pc-container ${ isScrolled ? 'logo-pc-container-scrolled' : '' }` }>
                 <img 
-                    src="src/public/img/logo-site.png" 
+                    src="public/img/logo-site.png" 
                     alt="Logotipo de Crédito PyMe México"
                     className="logo-site-pc"/>
             </div>
