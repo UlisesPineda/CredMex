@@ -39,7 +39,14 @@ export const MenuPc = () => {
             </div>
         </Link>
         {
-            dataLink.map( link => <LinkItem key={ link.linkUrl } linkUrl={ link.linkUrl } linkName={ link.linkName } linkClass="link-item-pc"/> )
+            dataLink.map( link => 
+                <LinkItem 
+                    key={ link.linkUrl } 
+                    linkUrl={ link.linkUrl }
+                    linkName={ link.linkName } 
+                    linkClass="link-item-pc"
+                /> 
+            )
         }
     </div>
   );
